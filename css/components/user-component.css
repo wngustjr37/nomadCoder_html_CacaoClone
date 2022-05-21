@@ -1,0 +1,7 @@
+.user-component{
+    display:flex;
+    justify-content: left;
+    background-color: tomato;
+}
+
+.user-component__avatar{}
