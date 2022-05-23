@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>More - Cocoa Talk</title>
+  </head>
+
+  <body class="chat-body">
+    <div class="status-bar chat__status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>110%</span>
+        <i class="fa-solid fa-battery-full fa-lg"></i>
+        <i class="fa-solid fa-bolt"></i>
+      </div>
+    </div>
+
+    <div class="fixed_box">
+      <header class="screen-header settings-header chat-header">
+        <a href="chats.html">
+          <i class="fa-solid fa-chevron-left fa-2x"></i>
+        </a>
+        <h1 class="screen-header__title">Nicolas Serrano</h1>
+        <div>
+          <span><i class="fa-brands fa-searchengin fa-2x"></i></span>
+          <span><i class="fa-solid fa-bars fa-2x"></i></span>
+        </div>
+      </header>
+    </div>
+
+    <main class="main-chat">
+      <div class="chat-date">
+        <div class="chat-date__box">Tuesday, June 30, 2020</div>
+      </div>
+
+      <div class="message__receive">
+        <img class="message__receive-image" src="img/profile.jpg" alt="" />
+        <div class="message__receive-text">
+          <div class="message__receive-text__name">Nicolas Serrano</div>
+          <div class="message__receive-text__content">
+            <span class="message__receive-text__msg">Hi!</span>
+            <span class="message__receive-text__time">21:27</span>
+          </div>
+        </div>
+      </div>
+      <div class="message__send">
+        <span>21:27</span>
+        <span>What's up?</span>
+      </div>
+    </main>
+
+    <form class="reply">
+      <div class="reply__column icon__plusbox">
+        <i class="fa-regular fa-square-plus"></i>
+      </div>
+
+      <div class="reply__column">
+        <input type="text" placeholder="Write a message" />
+
+        <i class="fa-regular fa-face-smile"></i>
+
+        <button class="button_box">
+          <i class="fa-solid fa-up-long icon_up"></i>
+        </button class="button_box">
+      </div>
+    </form>
+
+    <div id="no-mobile">
+      <span>Your screen is to big</span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/ad6d63f869.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

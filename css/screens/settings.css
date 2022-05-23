@@ -1,0 +1,48 @@
+.settings-list{
+    border-bottom: var(--main-border);
+}
+
+.settings__setting{
+    padding:20px 0px;
+    font-size: 18px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.settings__setting i{
+    opacity: 0.8;
+    margin-right: 10px;
+    font-size:22px;
+}
+
+.settings__setting-column{
+    display:flex;
+    align-items: center;
+}
+
+.settings__setting-column_gray{
+    opacity:0.8;
+    font-size:18px;
+    font-weight:400;
+    color:gray;
+    /* background-color: red; */
+}
+.settings-list>li{
+    margin-bottom: 13px;
+}
+
+.reddot_new{
+    background-color:tomato;
+    text-align: center;
+    color:white;
+    border-radius: 50%;
+    font-size:12px;
+    width:15px;
+    height: 15px;
+    font-weight: 600;
+    margin-left:5px;
+}
+
+
+
